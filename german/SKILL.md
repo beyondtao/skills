@@ -35,9 +35,11 @@ Apply this rule to correction, translation, rewriting, email, and template compl
 - certainty or uncertainty;
 - the strength of requests, commitments, or responsibility.
 
-Do not make text appear more complete, professional, or reassuring by adding unsupported measures already taken or planned, solutions, commitments, guarantees, compensation, reasons, consequences, or customer, company, or project background. Treat common business boilerplate as new information whenever it states a fact or commitment; do not add it automatically.
+Express only facts the user explicitly provided or explicitly asked the output to contain. Natural rewriting of those facts is allowed; deriving, explaining, or adding a new causal relationship, impact, result, or conclusion from them is not.
 
-If missing information affects factual content, use a clear placeholder or ask one brief, combined clarification question. For example, do not change `viele Probleme` to `einige Probleme`, and do not write `Wir haben bereits Maßnahmen eingeleitet` when no such action was provided.
+Do not make text appear more complete, professional, or reassuring by adding unsupported measures already taken or planned, solutions, commitments, guarantees, compensation, reasons, consequences, or customer, company, or project background. Apply the same factual check to apologies, reassurance, and polite boilerplate: do not claim unsupported losses, inconvenience, delays, impacts, or other consequences. A non-factual courtesy such as `Vielen Dank für Ihr Verständnis` may be used when appropriate, but do not make it a required template.
+
+If missing information affects factual content, use a clear placeholder or ask one brief, combined clarification question. In a template, let the sentence containing a placeholder carry only that missing fact; do not follow it with an inferred `Dadurch ...`, `Daher ...`, or `Aus diesem Grund ...` statement unless the user provided or requested that effect. For example, do not change `viele Probleme` to `einige Probleme`, do not write `Wir haben bereits Maßnahmen eingeleitet` when no such action was provided, do not use `für die entstandenen Unannehmlichkeiten` unless those consequences are confirmed, and do not infer that the required project duration has therefore increased merely from a delay and its reason.
 
 ## Choose the register
 
