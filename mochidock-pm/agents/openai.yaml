@@ -1,0 +1,4 @@
+interface:
+  display_name: "MochiDock PM"
+  short_description: "管理 MochiDock 阶段、范围、风险与项目交接"
+  default_prompt: "Use $mochidock-pm to review the current MochiDock state and propose the next small, verifiable stage without taking over product decisions."

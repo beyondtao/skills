@@ -5,3 +5,4 @@ This repository is used to develop and maintain multiple Codex Skills. Each Skil
 ## Current Skills
 
 - `german`
+- `mochidock-pm`
